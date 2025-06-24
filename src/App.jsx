@@ -1,14 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import { ScrollTrigger, SplitText } from "gsap/all"
+gsap.registerPlugin(ScrollTrigger, SplitText)
 function App() {
- return (
-  <div >
-    hello hi there
-  </div>
- )
+  return (
+    <div >
+      hello hi there how are you
+    </div>
+  )
 }
 
 export default App
