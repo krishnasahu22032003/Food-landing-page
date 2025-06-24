@@ -64,12 +64,11 @@ body {
     @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
   }
 .text-gradient {
-    background: linear-gradient(to bottom, #ffffff, #898989);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+  background: linear-gradient(to bottom, #e4e4e4, #707070); /* soft light grey to muted dark */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
-
  .masked-img {
     mask-image: url("/images/mask-img.png");
     mask-repeat: no-repeat;
@@ -143,9 +142,9 @@ body {
     @apply text-left;
   }
 
-  #hero .body .content .view-cocktails a {
-    @apply font-semibold opacity-80 2xl:text-start text-center hover:text-yellow;
-  }
+#hero .body .content .view-cocktails a {
+  @apply font-semibold opacity-80 block w-full text-center 2xl:text-start hover:text-yellow;
+}
 
   video {
     @apply w-full md:h-[50%] h-1/2 absolute bottom-50 left-0 md:object-contain object-bottom object-cover;
