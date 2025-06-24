@@ -111,12 +111,12 @@ body {
  
 
 #hero .left-image {
-  @apply absolute left-0 md:top-30 xl:top-36 2xl:top-30 md:bottom-auto -bottom-20 md:w-fit w-1/3;
+  @apply absolute left-0 md:top-30 xl:top-36 2xl:top-30 md:bottom-auto -bottom-20 md:w-50 w-1/3;
 } 
 
 
 #hero .right-image {
-  @apply absolute right-0 md:bottom-0 xl:top-0 2xl:top-2 top-1/2 md:w-fit w-24;
+  @apply absolute right-0 md:bottom-0 xl:top-0 2xl:top-2 top-1/2 md:w-50 w-24;
 }
   #hero .body {
     @apply container mx-auto absolute left-1/2 -translate-x-1/2 lg:bottom-15 top-auto md:top-[30vh] flex justify-between items-end px-13;
@@ -148,7 +148,7 @@ body {
   }
 
   video {
-    @apply w-full md:h-[80%] h-1/2 absolute bottom-0 left-0 md:object-contain object-bottom object-cover;
+    @apply w-full md:h-[50%] h-1/2 absolute bottom-50 left-0 md:object-contain object-bottom object-cover;
   }
 
   #cocktails {
