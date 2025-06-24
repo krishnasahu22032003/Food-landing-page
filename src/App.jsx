@@ -9,6 +9,7 @@ function App() {
     <main className="overflow-hidden">
       <Navbar/>
       <Hero/>
+      <div className="h-dvh bg-black" ></div>
     </main>
   )
 }
