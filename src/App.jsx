@@ -3,13 +3,14 @@ import gsap from "gsap"
 import Navbar from "./components/Navbar"
 import './index.css';
 import Hero from "./components/Hero";
+import Foods from "./components/Cocktails";
 gsap.registerPlugin(ScrollTrigger, SplitText)
 function App() {
   return (
-    <main className="overflow-hidden">
+    <main>
       <Navbar/>
       <Hero/>
-      <div className="h-dvh bg-black" ></div>
+      <Foods/>
     </main>
   )
 }

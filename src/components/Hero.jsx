@@ -96,10 +96,10 @@ useGSAP(() => {
 <div className='content'>
 <div className='space-y-5  hidden md:block' >
 <p>Crafted for the bold palate</p>
-<p className="hero-subtitle font-modern-negra text-5xl max-w-xl" >Savor the future <br />of indulgent taste</p>
+<p className="subtitle font-modern-negra text-5xl max-w-xl" >Savor the future <br />of indulgent taste</p>
 </div>
 <div className='view-cocktails'>
-<p className="hero-subtitle text-center md:text-left text-lg  max-w-md" >
+<p className="subtitle text-center md:text-left text-lg  max-w-md" >
 Discover bold ingredients reimagined with tech-infused precision.
 </p>
 <a href="#Food" >Explore the Flavor Vault</a>
