@@ -279,7 +279,7 @@ body {
   }
 
   #art .masked-container div p {
-    @apply text-md text-center;
+    @apply text-lg text-center;
   }
 
   #menu {
