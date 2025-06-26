@@ -6,7 +6,8 @@ import { cocktailLists, mockTailLists } from '../../constants/index.js';
 gsap.registerPlugin(ScrollTrigger);
 
 const Cocktails = () => {
-  useGSAP(() => {
+ useGSAP(() => {
+  const ctx = gsap.context(() => {
     const animateLeaf = (selector, x, y) => {
       const el = document.querySelector(selector);
       if (!el) return;
@@ -25,14 +26,14 @@ const Cocktails = () => {
       });
     };
 
-    // Animate only if element exists
     animateLeaf('#c-left-leaf', -500, 300);
     animateLeaf('#c-right-leaf', 500, 300);
     animateLeaf('#c-left-leaf-desktop', -500, 300);
     animateLeaf('#c-right-leaf-desktop', 500, 300);
 
-    // Responsive title animation
-    gsap.matchMedia().add({
+    const mm = gsap.matchMedia();
+
+    mm.add({
       "(min-width: 769px)": () => {
         gsap.from('#cocktails-title', {
           opacity: 0,
@@ -61,7 +62,6 @@ const Cocktails = () => {
       },
     });
 
-    // Ramen image animation
     gsap.from('#ramen-image', {
       opacity: 0,
       y: 100,
@@ -77,6 +77,9 @@ const Cocktails = () => {
       },
     });
   });
+
+  return () => ctx.revert();
+}, []);
 
   return (
     <section id="cocktails" className="noisy pt-0 relative pb-40 px-4 overflow-hidden">
@@ -130,7 +133,7 @@ const Cocktails = () => {
           </div>
         </div>
 
-        {/* Bottom leaf images (mobile) */}
+     
         <div className="relative w-full mt-10 md:hidden">
           <img
             loading="lazy"
@@ -149,7 +152,7 @@ const Cocktails = () => {
         </div>
       </div>
 
-      {/* Fixed desktop leaves */}
+      
       <div className="hidden md:block absolute bottom-0 left-0 z-0">
         <img
           loading="lazy"
