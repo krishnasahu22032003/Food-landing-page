@@ -29,8 +29,8 @@ const Contact = () => {
 	})
   return (
    <footer id="contact">
-	 <img src="/images/footer-right-leaf.png" alt="leaf-right" id="f-right-leaf" />
-	 <img src="/images/footer-left-leaf.png" alt="leaf-left" id="f-left-leaf" />
+	 <img src="/images/footer-right-leaf.png" alt="leaf-right" id="f-right-leaf" loading="lazy" />
+	 <img src="/images/footer-left-leaf.png" alt="leaf-left" id="f-left-leaf" loading="lazy" />
 	 
 	 <div className="content">
 		<h2>   Find Us in the Real World</h2>

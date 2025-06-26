@@ -78,8 +78,8 @@ useGSAP(() => {
 <>
 <section id='hero' className='noisy' >
 <h1 className='title  md:mt-33 mt-45 text-5xl md:text-[13vw] z-20 leading-none text-center font-modern-negra ' >TRUFFIQ</h1>
-<img src="/images/hero-left-leaf.png" alt="left-image" className='left-image' />
-<img src="/images/hero-right-leaf.png" alt="right-image" className='right-image' />
+<img src="/images/hero-left-leaf.png" alt="left-image" className='left-image' loading="lazy"/>
+<img src="/images/hero-right-leaf.png" alt="right-image" className='right-image'loading="lazy" />
   <div className="absolute top-75  inset-0 flex justify-center items-center z-10 pointer-events-none">
     <img
       src="/images/main.png"
