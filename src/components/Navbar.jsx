@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 z-50 w-full" >
       <div className="flex md:flex-row flex-col md:justify-between items-center gap-0 py-5  lg:pt-0 lg:px-40 px-5 container mx-auto">
-      <a href="#home" className="flex items-center cursor-pointer text-nowrap md:text-base text-sm">
+      <a href="#hero" className="flex items-center cursor-pointer text-nowrap md:text-base text-sm">
   <img
     src="/images/logo.png"
     alt="logo1"
