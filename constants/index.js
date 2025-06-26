@@ -1,6 +1,6 @@
  export const Navlinks = [
       {
-    id: "Cocktails",
+    id: "cocktails",
     title: "Food",
   },
   {
