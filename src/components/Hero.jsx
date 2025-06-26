@@ -31,9 +31,8 @@ gsap.timeline({
         scrub:true
     }
 })
-.to('.right-image',{y:200},0)
-.to('.left-image',{y:-200},0)
-
+.to('.right-image', { yPercent: 30, ease: 'none' }, 0)
+.to('.left-image', { yPercent: -30, ease: 'none' }, 0);
     },[])
 useGSAP(() => {
   const isMobile = window.innerWidth <= 768;
