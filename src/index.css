@@ -200,7 +200,7 @@ body {
   }
 
   #about {
-    @apply min-h-screen py-28 2xl:px-0 px-5 container mx-auto;
+    @apply min-h-screen py-28 2xl:px-5 px-5 container mx-auto;
   }
 
   #about .content {
@@ -228,7 +228,7 @@ body {
   }
 
   #about .badge {
-    @apply inline-block rounded-full bg-white text-black px-4 py-2 text-sm font-medium mb-8;
+    @apply inline-block rounded-full bg-white text-black px-4 py-2 text-sm font-medium mb-8 ;
   }
 
   #about .top-grid,
