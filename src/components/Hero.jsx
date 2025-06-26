@@ -82,7 +82,7 @@ useGSAP(() => {
 <img src="/images/hero-right-leaf.png" alt="right-image" className='right-image'loading="lazy" />
   <div className="absolute top-75  inset-0 flex justify-center items-center z-10 pointer-events-none">
     <img
-      src="/images/main.png"
+      src="https://res.cloudinary.com/dq6gs5w21/image/upload/v1750943346/main_qxo0we.png"
       alt="main"
    className="main-img object-contain 
             w-[75vw] max-w-[320px] 

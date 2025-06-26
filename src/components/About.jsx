@@ -47,29 +47,29 @@ Step into a world where ramen isn’t just food — it’s a fusion of craft, cu
       <div className='top-grid' >
         <div className='md:col-span-3' >
 <div className='noisy'/>
-<img src="/images/abt1.jpg" alt="grid-img-1" />
+<img src="https://res.cloudinary.com/dq6gs5w21/image/upload/v1750943341/abt1_h2qbvc.jpg" alt="grid-img-1" />
 
         </div>
         <div className='md:col-span-6' >
 <div className='noisy'/>
-<img src="/images/abt2.png" alt="grid-img-2" />
+<img src="https://res.cloudinary.com/dq6gs5w21/image/upload/v1750943338/abt2_tjtxgw.png" alt="grid-img-2" />
 
         </div>
         <div className='md:col-span-3' >
 <div className='noisy'/>
-<img src="/images/abt5.jpg" alt="grid-img-5" />
+<img src="https://res.cloudinary.com/dq6gs5w21/image/upload/v1750943350/abt5_jgwdqc.jpg" alt="grid-img-5" />
 
         </div>
       </div>
       <div className='bottom-grid'>
  <div className='md:col-span-8' >
 <div className='noisy'/>
-<img src="/images/abt3.png" alt="grid-img-3" />
+<img src="https://res.cloudinary.com/dq6gs5w21/image/upload/v1750943339/abt3_wovwcf.png" alt="grid-img-3" />
 
         </div>
  <div className='md:col-span-4' >
 <div className='noisy'/>
-<img src="/images/abt4.jpg" alt="grid-img-4" />
+<img src="https://res.cloudinary.com/dq6gs5w21/image/upload/v1750943343/abt4_jwx9ng.jpg" alt="grid-img-4" />
 
         </div>
       </div>
