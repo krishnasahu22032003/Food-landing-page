@@ -1,6 +1,6 @@
  export const Navlinks = [
       {
-    id: "food",
+    id: "Cocktails",
     title: "Food",
   },
   {
@@ -109,4 +109,29 @@ export const allCocktails = [
     description:
       "A tropical remix featuring blue Curacao, lime, and mint. Visually stunning and flavor-forward, it’s a conversation starter in every glass.",
   },
+];
+
+export const openingHours = [
+  { day: "Mon – Thu", time: "11:00 AM – 12:00 AM" },
+  { day: "Fri", time: "11:00 AM – 2:00 AM" },
+  { day: "Sat", time: "9:00 AM – 2:00 AM" },
+  { day: "Sun", time: "9:00 AM – 1:00 AM" },
+];
+
+export const socials = [
+ {
+	name: "Instagram",
+	icon: "/images/insta.png",
+	url: "#",
+ },
+ {
+	name: "X (Twitter)",
+	icon: "/images/x.png",
+	url: "#",
+ },
+ {
+	name: "Facebook",
+	icon: "/images/fb.png",
+	url: "#",
+ },
 ];
