@@ -106,7 +106,7 @@ const Cocktails = () => {
           <div className="center-logo w-full md:w-1/3 flex flex-col items-center justify-center text-center px-4">
             <img
               id="ramen-image"
-              src="https://res.cloudinary.com/dq6gs5w21/image/upload/v1750943343/ramenbowl_jyytsn.png"
+              src="https://res.cloudinary.com/dq6gs5w21/image/upload/f_auto,q_auto/v1750943343/ramenbowl_jyytsn.png"
               className="w-[160px] md:w-85 h-auto z-10"
               alt="center-logo"
             />

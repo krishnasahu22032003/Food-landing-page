@@ -40,7 +40,7 @@ const Art = () => {
 		 
 		 <div className="cocktail-img">
 			<img
-				src="https://res.cloudinary.com/dq6gs5w21/image/upload/v1750943345/under-img_gasb8g.jpg"
+				src="https://res.cloudinary.com/dq6gs5w21/image/upload/f_auto,q_auto/v1750943345/under-img_gasb8g.jpg"
 				alt="cocktail"
 				className="abs-center masked-img size-full object-contain"
 			/>

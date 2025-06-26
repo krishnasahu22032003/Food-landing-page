@@ -80,7 +80,7 @@ export const allCocktails = [
 {
   id: 1,
   name: "Tokyo Ramen",
-  image: "https://res.cloudinary.com/dq6gs5w21/image/upload/v1750943343/ramenbowl_jyytsn.png",
+  image: "https://res.cloudinary.com/dq6gs5w21/image/upload/f_auto,q_auto/v1750943343/ramenbowl_jyytsn.png",
   title: "Bold. Umami. Futuristic.",
   description:
     "A next-gen bowl of handcrafted noodles, rich umami broth, and precision-cut toppings. Designed for flavor seekers and midnight ramen lovers alike.",
@@ -88,7 +88,7 @@ export const allCocktails = [
 {
   id: 2,
   name: "Spicy Miso",
-  image: "https://res.cloudinary.com/dq6gs5w21/image/upload/v1750943339/drink2_v4nerz.png",
+  image: "https://res.cloudinary.com/dq6gs5w21/image/upload/f_auto,q_auto/v1750943339/drink2_v4nerz.png",
   title: "Heat. Depth. Elevation.",
   description:
     "A fiery fusion of miso broth, chili oil, and smoked garlic—engineered for those who crave bold flavor and an extra kick. Not for the faint of taste.",
@@ -96,7 +96,7 @@ export const allCocktails = [
   {
     id: 3,
     name: "Violet Breeze",
-    image: "https://res.cloudinary.com/dq6gs5w21/image/upload/v1750943340/drink3_turksi.png",
+    image: "https://res.cloudinary.com/dq6gs5w21/image/upload/f_auto,q_auto/v1750943340/drink3_turksi.png",
     title: "Floral Notes, Futuristic Feel",
     description:
       "Delicate lavender essence meets crisp citrus and vodka in this aromatic blend. A dreamy drink crafted for those who sip with style.",
@@ -104,7 +104,7 @@ export const allCocktails = [
   {
     id: 4,
     name: "Curacao Mojito",
-    image: "https://res.cloudinary.com/dq6gs5w21/image/upload/v1750943340/drink4_kakq6b.png",
+    image: "https://res.cloudinary.com/dq6gs5w21/image/upload/f_auto,q_auto/v1750943340/drink4_kakq6b.png",
     title: "Colorful. Bold. Unexpected.",
     description:
       "A tropical remix featuring blue Curacao, lime, and mint. Visually stunning and flavor-forward, it’s a conversation starter in every glass.",
