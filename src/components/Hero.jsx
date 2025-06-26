@@ -37,7 +37,7 @@ gsap.timeline({
 useGSAP(() => {
   const isMobile = window.innerWidth <= 768;
 
-  // Entry animation from bottom
+
   gsap.fromTo(
     ".main-img",
     {
@@ -54,13 +54,12 @@ useGSAP(() => {
     }
   );
 
-  // Parallax on mouse move (desktop only)
   if (!isMobile) {
     const mainImg = document.querySelector(".main-img");
 
     window.addEventListener("mousemove", (e) => {
-      const xMove = (e.clientX / window.innerWidth - 0.5) * 15; // -20 to 20
-      const yMove = (e.clientY / window.innerHeight - 0.5) * 18; // -10 to 10
+      const xMove = (e.clientX / window.innerWidth - 0.5) * 15; 
+      const yMove = (e.clientY / window.innerHeight - 0.5) * 18; 
 
       gsap.to(mainImg, {
         x: xMove,
@@ -86,9 +85,9 @@ useGSAP(() => {
       src="/images/main.png"
       alt="main"
    className="main-img object-contain 
-            w-[65vw] max-w-[320px] 
+            w-[75vw] max-w-[320px] 
             md:w-[28vw] md:max-w-md 
-            translate-y-[-2rem] md:translate-y-0"
+            translate-y-[-2rem] md:translate-y-0 pt-0"
     />
   </div>
 <div className='body z-20 mt-5' >
@@ -101,7 +100,7 @@ useGSAP(() => {
 <p className="subtitle text-center md:text-left text-lg  max-w-md" >
 Discover bold ingredients reimagined with tech-infused precision.
 </p>
-<a href="#Food" >Explore the Flavor Vault</a>
+<a href="#cocktails" >Explore the Flavor Vault</a>
 </div>
 </div>
 </div>

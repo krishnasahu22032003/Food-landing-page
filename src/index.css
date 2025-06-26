@@ -115,7 +115,7 @@ body {
 
 
 #hero .right-image {
-  @apply absolute right-0 md:bottom-0 xl:top-0 2xl:top-2 top-1/2 md:w-50 w-24;
+  @apply absolute right-0 md:bottom-0 xl:top-0 2xl:top-2 top-30 md:w-50 w-24;
 }
   #hero .body {
     @apply container mx-auto absolute left-1/2 -translate-x-1/2 lg:bottom-15 top-auto md:top-[30vh] flex justify-between items-end px-13;
