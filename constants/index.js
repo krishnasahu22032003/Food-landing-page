@@ -64,4 +64,15 @@ export const mockTailLists = [
 	price: "$29",
  },
 ];
-
+export const featureLists = [
+  "Slow-cooked, flavor-packed broths",
+  "Precision-cut noodles every time",
+  "Plated with futuristic flair",
+  "Crafted for the modern palate",
+];
+export const goodLists = [
+  "Handpicked seasonal ingredients",
+  "Signature slow-simmer techniques",
+  "Culinary precision in every bowl",
+  "Freshly torched, expertly plated",
+];

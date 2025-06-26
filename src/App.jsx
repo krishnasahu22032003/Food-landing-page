@@ -5,6 +5,7 @@ import './index.css';
 import Hero from "./components/Hero";
 import Foods from "./components/Cocktails";
 import About from "./components/About";
+import Art from "./components/Art";
 
 gsap.registerPlugin(ScrollTrigger, SplitText)
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Hero/>
       <Foods/>
      <About/>
+     <Art/>
     </main>
   )
 }

@@ -251,7 +251,7 @@ body {
   }
 
   #art {
-    @apply flex-center flex-col min-h-dvh p-5 mt-20 relative bg-radial-gradient;
+    @apply flex-center flex-col min-h-dvh p-8 mt-20 relative bg-radial-gradient;
   }
 
   #art h2 {
@@ -275,11 +275,11 @@ body {
   }
 
   #art .masked-container div h3 {
-    @apply md:text-5xl text-2xl text-center font-serif md:w-full w-80 text-white;
+    @apply md:text-5xl text-2xl text-center font-serif md:w-full w-70 text-white;
   }
 
   #art .masked-container div p {
-    @apply text-lg text-center;
+    @apply text-md text-center;
   }
 
   #menu {
