@@ -77,22 +77,22 @@ export const goodLists = [
   "Freshly torched, expertly plated",
 ];
 export const allCocktails = [
-  {
-    id: 1,
-    name: "Classic Mojito",
-    image: "/images/drink1.png",
-    title: "Crisp, Cool, and Timeless",
-    description:
-      "A refreshing blend of mint, lime, and rum—lightly sweetened and endlessly satisfying. Perfect for warm evenings or any time you need a chill escape.",
-  },
-  {
-    id: 2,
-    name: "Raspberry Mojito",
-    image: "/images/drink2.png",
-    title: "Sweet Meets Sharp",
-    description:
-      "Juicy raspberries and fresh mint combine for a bold twist on a classic mojito. Fruity, vibrant, and made to turn heads at any gathering.",
-  },
+{
+  id: 1,
+  name: "Tokyo Ramen",
+  image: "/images/ramenbowl.png",
+  title: "Bold. Umami. Futuristic.",
+  description:
+    "A next-gen bowl of handcrafted noodles, rich umami broth, and precision-cut toppings. Designed for flavor seekers and midnight ramen lovers alike.",
+},
+{
+  id: 2,
+  name: "Spicy Miso",
+  image: "/images/drink2.png",
+  title: "Heat. Depth. Elevation.",
+  description:
+    "A fiery fusion of miso broth, chili oil, and smoked garlic—engineered for those who crave bold flavor and an extra kick. Not for the faint of taste.",
+},
   {
     id: 3,
     name: "Violet Breeze",

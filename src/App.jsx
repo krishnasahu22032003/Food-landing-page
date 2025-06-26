@@ -13,7 +13,7 @@ function App() {
  
 
   return (
-    <main>
+    <main className="overflow-hidden">
       <Navbar/>
       <Hero/>
       <Foods/>
